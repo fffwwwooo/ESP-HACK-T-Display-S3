@@ -53,7 +53,7 @@ python -m esptool --chip esp32s3 --port COM17 --before default-reset --after wat
 
 # 📡 ESP-HACK FW — [Русский](./README-ru.md)
 
-![ESP-HACK_LOGO](others/Pictures/ESP-HACK.png)
+![ESP-HACK_LOGO](ESP-HACK.png)
 
 ## 🚀 About ESP-HACK FW
 
