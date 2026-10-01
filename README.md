@@ -159,37 +159,8 @@ To create a custom logo, [convert the image to a bitmap](https://pixel.hjlabs.in
 
 ---
 
-## 🛠️ Building
 
-### 🔧 PCB
 
-![ESP-HACK_PCB](others/Pictures/PCB.png)
-Thanks Dripside!
-
-### 🔧 Required components
-
-| Component | Link |
-|-----------|--------|
-| ESP32-WROOM | [TAP](https://aliexpress.com/item/1005007817121199.html) |
-| CC1101 | [TAP](https://aliexpress.com/item/1005008544032996.html) |
-| Display SH1106 | [TAP](https://aliexpress.com/item/1005004464878029.html) |
-| SD Мodule | [TAP](https://aliexpress.com/item/32674518514.html) |
-| Buttons | [TAP](https://aliexpress.com/item/4000452176168.html) |
-| IR-TX, IR-RX | [TAP](https://aliexpress.com/item/1005007446501425.html) |
-
----
-
-### 🔌 Connection scheme
-![ESP-HACK_Scheme](others/Pictures/Scheme.png)
-
-| Module | Pin | Pin | Pin | Pin | Pin | Pin | Pin |
-|--------|-------|-------|-------|-------|-------|-------|-------|
-| **📺 Display** | VCC → 3V3 | GND → GND | SCL → G22 | SDA → G21 | - | - | - |
-| **🔘 Buttons** | UP → G27 | DOWN → G26 | OK → G33 | BACK → G32 | - | - | - |
-| **📡 CC1101** | 1 → GND | 2 → 3V3 | 3 → G4 | 4 → G5 | 5 → G18 | 6 → G23 | 7 → G19 |
-| **💡 IR** | IR-TX → G16 | IR-RX → G35 | - | - | - | - | - |
-| **🔌 GPIO** | A → G16 | B → G2 | C → G18 | D → G23 | E → G19 | F → G25 | - |
-| **💾 SD Card** | 3v3 → 3v3 | CS → G15 | MOSI → G13 | CLK → G14 | MISO → G17 | GND → GND | - |
 
 ---
 
@@ -325,39 +296,6 @@ Came, Nice, Ansonic, Holtek, Chamberlain
 
 ---
 
-## 🛠️ Сборка
-
-### 🔧 PCB
-
-![ESP-HACK_PCB](others/Pictures/PCB.png)
-Thanks Dripside!
-
-### 🔧 Необходимые компоненты
-
-| Компонент | Ссылка |
-|-----------|--------|
-| ESP32-WROOM | [TAP](https://aliexpress.ru/item/1005007817121199.html) |
-| CC1101 | [TAP](https://aliexpress.ru/item/1005008544032996.html) |
-| Display SH1106 | [TAP](https://aliexpress.ru/item/1005004464878029.html) |
-| SD Модуль | [TAP](https://aliexpress.ru/item/32674518514.html) |
-| Кнопки | [TAP](https://aliexpress.ru/item/4000452176168.html) |
-| IR-TX, IR-RX | [TAP](https://aliexpress.ru/item/1005007446501425.html) |
-
----
-
-### 🔌 Схема подключения
-![ESP-HACK_Scheme](others/Pictures/Scheme.png)
-
-| Модуль | Пин | Пин | Пин | Пин | Пин | Пин | Пин |
-|--------|-------|-------|-------|-------|-------|-------|-------|
-| **📺 Дисплей** | VCC → 3V3 | GND → GND | SCL → G22 | SDA → G21 | - | - | - |
-| **🔘 Кнопки** | UP → G27 | DOWN → G26 | OK → G33 | BACK → G32 | - | - | - |
-| **📡 CC1101** | 1 → GND | 2 → 3V3 | 3 → G4 | 4 → G5 | 5 → G18 | 6 → G23 | 7 → G19 |
-| **💡 ИК** | IR-TX → G16 | IR-RX → G35 | - | - | - | - | - |
-| **🔌 GPIO** | A → G16 | B → G2 | C → G18 | D → G23 | E → G19 | F → G25 | - |
-| **💾 SD Card** | 3v3 → 3v3 | CS → G15 | MOSI → G13 | CLK → G14 | MISO → G17 | GND → GND | - |
-
----
 
 ## Ошибки (ERROR:)
 
